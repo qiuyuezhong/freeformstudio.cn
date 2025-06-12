@@ -3,11 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FreeForm Studio</title>
+    <title>FreeForm Software Studio</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        header p {
+            color: #ccc;
+            font-size: 1.4em;
+            font-style: italic;
+            margin: 0;
+            font-weight: 300;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background: #ddd;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .intro, .projects, .contact {
+            margin-bottom: 40px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .contact-info a {
+            color: #666;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-info a:hover {
+            color: #333;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to FreeForm Software Studio!</h1>
-    <p>This is a simple page hosted on GitHub Pages.</p>
-    <p>Visit our <a href="https://github.com/yourusername">GitHub Profile</a> for more info.</p>
+    <header>
+        <h1>Welcome to FreeForm Software Studio</h1>
+        <p>Innovative mobile applications for everyday solutions</p>
+    </header>
+
+    <nav>
+        <a href="#intro">About Us</a>
+        <a href="#projects">Our Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="intro" class="intro">
+            <h2>About FreeForm Software Studio</h2>
+            <p>At FreeForm Software Studio, we are passionate about creating innovative software solutions that improve everyday life. With years of experience in mobile platform development, our focus is on building functional, reliable, and user-friendly applications that address real-world problems.</p>
+            
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Our Projects</h2>
+            <p>Currently, we are working on <strong>TempDiary</strong>, an app designed to help users track fever temperatures and medication usage. Stay tuned for more exciting updates!</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feedback, or need support, feel free to get in touch with us:</p>
+            <div class="contact-info">
+                <p><strong>Support Email:</strong> <a href="mailto:support@freeformstudio.cn">support@freeformstudio.cn</a></p>
+                <p><strong>General Contact:</strong> <a href="mailto:contact@freeformstudio.cn">contact@freeformstudio.cn</a></p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> FreeForm Software Studio. All rights reserved.</p>
+    </footer>
 </body>
 </html>
