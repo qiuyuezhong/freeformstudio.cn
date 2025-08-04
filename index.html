@@ -23,6 +23,7 @@
         header h1 {
             margin-bottom: 10px;
             font-size: 2.5em;
+            color: #fff;
         }
 
         header p {
@@ -63,6 +64,11 @@
             color: #333;
         }
 
+        /* 确保header中的h1保持白色 */
+        header h1 {
+            color: #fff !important;
+        }
+
         .intro, .projects, .contact {
             margin-bottom: 40px;
         }
@@ -72,9 +78,7 @@
             color: #fff;
             text-align: center;
             padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            margin-top: 20px;
         }
 
         .contact-info a {
@@ -110,8 +114,40 @@
 
         <section id="projects" class="projects">
             <h2>Our Projects</h2>
-            <p>Currently, we are working on <strong>TempDiary</strong>, an app designed to help users track fever temperatures and medication usage. Stay tuned for more exciting updates!</p>
+            <p>We create mobile apps that make everyday life easier. Here are some of the projects we’ve been working on:</p>
+
+            <div style="border: 1px solid #eee; padding: 20px; border-radius: 8px; background-color: #fafafa;">
+                <h3>📱 TempDiary</h3>
+                <p>
+                    TempDiary is a simple and reliable tool for logging body temperature and medication history. With clear logs and trend charts, it helps you stay organized—whether you're managing recovery at home or preparing for a doctor visit.
+                </p>
+                <p>
+                    It supports multiple profiles, automatically generates temperature charts, and lets you export your records as images or PDF reports for sharing or backup.
+                </p>
+                <p>
+                    No signups. No cloud sync. Your temperature and medication logs stay safely on your device.
+                </p>
+                <ul>
+                    <li>Quickly log body temperature and medications</li>
+                    <li>View clear trend charts to monitor changes over time</li>
+                    <li>Manage records for multiple members</li>
+                    <li>Export image or PDF reports with one tap</li>
+                    <li>Use offline—your data is stored only on your device</li>
+                </ul>
+                <p>
+                    A one-time purchase is available to unlock premium features:
+                </p>
+                <ul>
+                    <li>Export full PDF reports</li>
+                    <li>Add and manage multiple independent profiles</li>
+                    <li>Remove ads for a cleaner experience</li>
+                </ul>
+                <p>
+                    We care about your privacy and user rights, see our <a href="TempDiary/privacy_policy_en.html" target="_blank">Privacy Policy</a> and <a href="TempDiary/terms_of_use_en.html" target="_blank">Terms of Use</a> for more details.<br>
+                </p>
+            </div>
         </section>
+
 
         <section id="contact" class="contact">
             <h2>Contact Us</h2>
